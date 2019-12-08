@@ -6,15 +6,13 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import random
 
-emails1 = ['EmailPersonA@example.com', 'EmailPersonB@example.com', 'EmailPersonC@example.com', 'EmailPersonD@example.com']
-names1 = ['Person A', 'Person B', 'Person C', 'Person D']
-
-emails = ['scarlatalinn@gmail.com', 'denisa_vatulescu@yahoo.com']
-names = ['Ionut', 'Denisa']
+emails = ['EmailPersonA@example.com', 'EmailPersonB@example.com', 'EmailPersonC@example.com', 'EmailPersonD@example.com']
+names = ['Person A', 'Person B', 'Person C', 'Person D']
 
 address = 'https://mail.google.com/mail/u/0/h/prfn4k4j6fjk/?zy=e&f=1'
-email_address = 'santaklausautomation@gmail.com'
-email_password = 'SantaKlaus1234#'
+# from address. The emails are sent from this address.
+email_address = 'adress@gmail.com'
+email_password = 'password'
 
 
 def match_santa(names):
